@@ -1,0 +1,20 @@
+{
+  "name": "db-mem-textil",
+  "version": "1.0.0",
+  "description": "Backend do catálogo MEM Têxtil (Render + Supabase)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "pg": "^8.21.0",
+    "sharp": "^0.34.0"
+  }
+}
